@@ -16,5 +16,10 @@ url: "http://hopdurable.fr" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+cloudinary:
+  cloud_name: hop-durable
+
 gems:
   - jekyll-seo-tag
+  - jekyll-cloudinary
+  - jekyll-offline
